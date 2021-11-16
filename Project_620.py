@@ -40,7 +40,7 @@ def load_Wheat2_data(nrows):
 # In[4]:
 
 
-df1 = pd.read_csv('Average Temperature Anomalies.csv',index_col=0)
+df1 = pd.read_csv('C:\Users\patel\Average Temperature Anomalies',index_col=0)
 df2 = pd.read_csv('Rice2.csv',index_col=0)
 df3 = pd.read_csv('Wheat2.csv',index_col=0)
 df4 = pd.read_csv('4 Countries Bar.csv',index_col=0)
