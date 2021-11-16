@@ -18,24 +18,6 @@ import plotly.express as px
 st.title('DS620 FINAL PROJECT')
 
 
-# In[3]:
-
-
-@st.cache
-def load_data(nrows):
-    data = pd.read_csv('Average Temperature Anomalies.csv',nrows=nrows)
-    return data
-
-@st.cache
-def load_Rice2_data(nrows):
-    data = pd.read_csv('Rice2.csv',nrows=nrows)
-    return data
-
-@st.cache
-def load_Wheat2_data(nrows):
-    data = pd.read_csv('Wheat2.csv',nrows=nrows)
-    return data
-
 
 # In[4]:
 
